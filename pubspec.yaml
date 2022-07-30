@@ -1,0 +1,131 @@
+name: picco
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  youtube_player_flutter: ^8.1.0
+
+  # For State Management
+  provider: ^6.0.2
+
+  # For console outputs
+  logger: 1.1.0
+
+  # For local database
+  hive: ^2.2.3
+  hive_flutter: 1.1.0
+
+  # For text field
+  mask_text_input_formatter: ^2.3.0
+  pin_code_fields: ^7.4.0
+
+  # For Animations
+  simple_animations: ^4.2.0
+
+  # For google map
+  google_maps_flutter: ^2.1.3
+
+  # For getting current location
+  geolocator: ^9.0.1
+
+  # For getting searched location long-lang
+  geocoding: ^2.0.4
+
+  # For bottom_sheet
+  snapping_sheet: ^3.1.0
+
+  # For Responsiveness
+  flutter_screenutil: ^5.5.3+1
+  device_preview: ^1.0.0
+
+  # For Lottie Animations
+  lottie: ^1.3.0
+
+  # For network requests
+  http: ^0.13.4
+  dio: ^4.0.6
+
+  # For images
+  image_picker: any
+
+  # For readmore
+  readmore: ^2.1.0
+
+  # For Charts + Percent progress indicator
+  fl_chart: ^0.55.0
+  percent_indicator: ^4.0.1
+
+  # For backend data
+  firebase_auth: ^3.3.19
+  firebase_core: ^1.17.1
+  cloud_firestore: ^3.1.17
+  firebase_storage: ^10.2.17
+  google_sign_in: any
+  firebase_dynamic_links: ^4.2.6
+  firebase_messaging: ^12.0.0
+  flutter_local_notifications: ^9.7.0
+  device_info_plus: ^4.0.1
+
+  # For loading images from network
+  cached_network_image: ^3.2.1
+
+  # For using custom fonts
+  google_fonts: ^3.0.1
+
+  # Check internet connection
+  connectivity_plus: any
+
+  #for call and send sms
+  url_launcher: ^6.1.4
+
+  # For share deep link social media
+  share_plus: ^4.0.10
+
+  # for downloading images:
+  path_provider: ^2.0.11
+  permission_handler: ^10.0.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/detail_icons/
+    - assets/images/
+    - assets/extra_images/
+    - assets/lottie/
+    - assets/icons/
+    - assets/logo/
+    - assets/icons/announcement_page_icons/
+    - assets/icons/detail_bottom_sheet_icons/
+    - assets/icons/home_page_icons/
+    - assets/map_style/
+    - assets/home_page_images/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+
