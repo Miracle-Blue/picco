@@ -1,4 +1,4 @@
-# pipi
+# Picco
 
 A new Flutter project.
 
